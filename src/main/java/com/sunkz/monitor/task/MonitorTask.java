@@ -29,7 +29,7 @@ public class MonitorTask {
     private BufferedImage pre;
 
     @SneakyThrows
-    @Scheduled(fixedDelayString = "${my.delay}")
+    @Scheduled(fixedDelayString = "${monitor.frequency}")
     public void monitor() {
         BufferedImage curr = FileUtil.captureScreen();
         if (!ImageUtil.isSame(pre, curr)) {
