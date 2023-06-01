@@ -23,5 +23,5 @@ monitor.frequency=
 > 配置自动启动 <br><br>
 > MAC : 启动项添加 monitor.sh <br><br>
 > WIN : 
-> - 为monitor.bat 创建快捷方式. <br>
+> - 为monitor.bat 创建快捷方式 <br>
 > - win + r  shell:startup 将快捷方式复制进去
