@@ -1,5 +1,5 @@
 ## monitor
-> 每间隔指定时间截屏上传到 GITHUB 仓库
+> 定时截屏去除相似图片后上传至 GITHUB 仓库
 
 ### STEP.1
 > 配置 application.properties
