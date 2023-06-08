@@ -1,5 +1,5 @@
 ## monitor
-> 定时截屏去除相似图片后上传至 GITHUB 仓库
+> 屏幕监控 : 定时截屏去除相似图片后上传至 GITHUB 仓库
 
 ### STEP.1
 > 配置 application.properties
