@@ -14,7 +14,7 @@ public class GithubRequest {
     public static GithubRequest build(String content) {
         GithubRequest request = new GithubRequest();
         request.setMessage(TimeUtil.now(TimeUtil.PATTERN_3));
-        request.setCommitter(new Committer("sunkz", "sun_kz@icloud.com"));
+        request.setCommitter(new Committer(System.getProperty("user.name"), "Your Email"));
         request.setContent(content);
         return request;
     }
