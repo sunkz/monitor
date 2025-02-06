@@ -12,6 +12,6 @@ case "$OSTYPE" in
   *)        echo "unknown: $OSTYPE" ;;
 esac
 
-cp ./target/web-0.0.1-SNAPSHOT.jar ~/.monitor/monitor.jar
+cp ./target/monitor-0.0.1-SNAPSHOT.jar ~/.monitor/monitor.jar
 
 mvn clean
