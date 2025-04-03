@@ -42,7 +42,7 @@ public class MonitorTask {
         File file = new File(System.getProperty("user.name") + TimeUtil.now(TimeUtil.PATTERN_3) + ".jpg");
         ImageIO.write(image, "jpg", file);
         String encode = Base64.encode(file);
-        FileUtil.delete(file);
+        cn.hutool.core.io.FileUtil.del(file);
         githubClient.putContent(file.getName(), GithubRequest.build(encode));
     }
 
